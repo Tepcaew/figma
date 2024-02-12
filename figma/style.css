@@ -1,0 +1,281 @@
+* {
+  box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+body {
+  margin: 0;
+  height: 100%;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+ul {
+  list-style-type: none;
+}
+header {
+  width: 1440px;
+  height: 132px;
+  margin: auto;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  width: 1410px;
+  height: 80px;
+}
+.logo {
+  margin: 26px 0 90px 28px;
+}
+.header img {
+  width: 16px;
+  height: 16px;
+}
+.avion {
+  width: 65px;
+  height: 30px;
+  font-size: 24px;
+  margin-top: 20px;
+}
+.bascetPro {
+  margin: 26px 3px 90px;
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 16px;
+}
+
+hr {
+  width: 1386px;
+  color: rgba(0, 0, 0, 0.1);
+}
+
+.nav {
+  margin: auto;
+  width: 675px;
+  height: 22px;
+}
+.nav ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  color: rgba(114, 110, 141, 1);
+}
+
+.bgImg {
+  position: relative;
+  width: 100%;
+  height: 210px;
+  background-image: url(./img/bgStul.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  margin-top: 20px;
+}
+
+.bgImg span {
+  position: absolute;
+  width: 206px;
+  height: 50px;
+  top: 123px;
+  left: 80px;
+  font-size: 36px;
+  color: rgba(255, 255, 255, 1);
+}
+
+.navigationTwo {
+  display: flex;
+  justify-content: space-between;
+  background: rgba(255, 255, 255, 1);
+  width: 1440px;
+  height: 64px;
+  padding: 8px, 24px, 8px, 24px;
+}
+
+.navigationTwo ul li {
+  position: relative;
+  list-style: none;
+  transition: box-shadow 0.4s;
+}
+
+.navigationTwo ul li:hover {
+  box-shadow: 0 10px 13px rgba(18, 18, 18, 0.1);
+}
+
+.categoryTwo {
+  padding: 0;
+  margin-left: 37px;
+}
+
+.category ul,
+.categoryTwo ul {
+  list-style: none;
+  display: flex;
+  padding: 0;
+}
+
+.category li,
+.categoryTwo li {
+  margin-right: 10px;
+  width: 162px;
+  height: 48px;
+  padding: 12px, 24px, 12px, 24px;
+  gap: 8px;
+  left: 10px;
+  text-align: center;
+}
+
+.categoryTwo {
+  margin-left: auto;
+}
+
+main {
+  margin: auto;
+  width: 1440px;
+}
+.container {
+  width: 1300px;
+  height: 510px;
+  background-color: rgba(255, 255, 255, 1);
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+  margin-top: 300px;
+}
+.carts {
+  width: 305px;
+  height: 462px;
+  text-align: center;
+  top: 28px;
+  left: 1055px;
+}
+
+.carts img {
+  width: 305px;
+  margin-bottom: 24px;
+  height: 375px;
+  transition: transform 0.5s;
+}
+
+.carts img:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+.title {
+  text-align: left;
+  margin-top: 5px;
+}
+
+.containertWO {
+  width: 1300px;
+  height: 510px;
+  background-color: rgba(255, 255, 255, 1);
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+}
+
+.collection {
+  /* width: 100%;
+  height: 48px;
+  text-align: center;
+  align-items: center;
+  margin-top: 20px;
+  font-size: 20px; */
+}
+
+.collection {
+  height: 48px;
+  align-items: center;
+  margin-top: 20px;
+  font-size: 20px;
+  background-color: rgba(255, 255, 255, 1);
+  color: rgb(215, 211, 211);
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin: auto;
+  width: 20%;
+  border-radius: 25px;
+  margin-bottom: 20px;
+}
+
+.collection:hover {
+  background-color: rgba(42, 37, 75, 1);
+}
+
+footer {
+  background-color: rgba(42, 37, 75, 1);
+  width: 100%;
+  height: 100%;
+}
+.footerContainer {
+  height: 350px;
+  width: 100%;
+  display: flex;
+  font-size: 16px;
+  justify-content: space-between;
+  background-color: rgba(42, 37, 75, 1);
+  color: rgba(255, 255, 255, 1);
+}
+
+.blockOne {
+  width: 100%;
+  display: flex;
+  gap: 40px;
+  margin-top: 20px;
+}
+
+.blockOne div {
+  width: 105px;
+  margin-left: 50px;
+  height: 10px;
+}
+
+.blocSearch {
+  display: flex;
+  width: 100%;
+  height: 40px;
+  margin-left: 90px;
+}
+
+form {
+  margin-top: 20px;
+  margin-top: 30px;
+}
+
+form input {
+  width: 580px;
+  height: 35px;
+  color: rgb(23, 22, 22);
+}
+form button {
+  height: 35px;
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.zaeb {
+  color: rgba(78, 77, 147, 1);
+  margin-bottom: 10px;
+}
+.endFooter {
+  padding-bottom: 80px;
+  display: flex;
+  justify-content: space-around;
+  color: rgba(255, 255, 255, 1);
+}
+
+.icons {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  gap: 7px;
+  cursor: pointer;
+}
+
+.icons img {
+  filter: brightness(0) invert(1);
+}
